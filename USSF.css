@@ -1,0 +1,186 @@
+@font-face {
+    font-family: nasafont;
+    src: url(nasalization-rg.ttf);
+}
+
+.navbar a{
+    font-family: nasafont !important;
+}
+
+body {
+    background-image: url('spacebackground.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 70px;
+}
+
+#wrapper {
+    margin: 20px auto;
+    width: 45%;
+    background-color:rgba(25,30,35,.61);
+    border-radius: 15px;
+}
+
+
+#navbarlogo {
+    height: 1.5em;
+    width: 1.5em;
+    margin-top: -.2em;
+}
+
+.divwrapper {
+    text-align: center;
+}
+
+.divbreak {
+    height: 5px;
+    background: -webkit-linear-gradient(rgba(143, 143, 143, 0), rgba(255, 255, 255, 0.384), rgba(143, 143, 143, 0));
+    background: -moz-linear-gradient(rgba(143, 143, 143, 0), rgba(255, 255, 255, 0.384), rgba(143, 143, 143, 0));
+    background: -o-linear-gradient(rgba(143, 143, 143, 0), rgba(255, 255, 255, 0.384), rgba(143, 143, 143, 0));
+    background: -ms-linear-gradient(rgba(143, 143, 143, 0), rgba(255, 255, 255, 0.384), rgba(143, 143, 143, 0));
+    background: linear-gradient(rgba(143, 143, 143, 0), rgba(255, 255, 255, 0.384), rgba(143, 143, 143, 0));
+}
+
+.divcaption {
+    color: white;
+    font-size: 2em;
+}
+
+.pageheadline{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 5em;
+    color: white;
+    font-family: nasafont;
+    text-shadow: 2px 2px 8px #e7e7e7;
+}
+
+.datediv {
+    text-align: center;
+    color: white;
+}
+
+.tweetwrapper{
+    margin: 20px;
+    position: absolute;
+    width: 25%
+}
+
+.twitter-timeline{
+    overflow-y: scroll;
+    height: 300px;
+}
+
+.postwrapper:hover .divcaption{
+    color: black !important;
+    text-shadow: 2px 2px 6px black;
+    text-decoration: none !important;
+}
+
+.postwrapper:hover .datediv{
+    color: black !important;
+}
+
+.postwrapper:hover {
+    background-color: rgba(255, 255, 255, 0.308);
+    color: black !important;
+}
+
+.redditpostwrapper:hover {
+    background-color: rgba(25,30,35,.61);
+    color: #e7e7e7 !important;
+    text-shadow: 2px 2px 6px #e7e7e7;
+    text-decoration: none !important;
+}
+
+
+.redditdivbreak {
+    height: 1px;
+    background-color:  rgb(158, 158, 158);
+}
+
+.redditdivcaption {
+    color: #e7e7e7;
+    font-size: 1em;
+}
+
+.redditdivcaption:hover {
+    color: #e7e7e7;
+    font-size: 1em;
+    text-shadow: 2px 2px 6px #e7e7e7;
+    text-decoration: none !important;
+}
+
+
+.redditcaption {
+    color: white;
+    font-family: nasafont !important;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.redditauthor {
+    font-style: italic;
+}
+
+.redditauthor:hover {
+    font-style: italic;
+    color: #e7e7e7;
+    text-shadow: 2px 2px 6px #e7e7e7;
+    text-decoration: none !important;
+}
+
+#redditfeed {
+    text-align: right;
+    position: absolute;
+    width: 15%;
+    right: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+.navbar-default {
+    background-color: rgba(25,30,35,.61) !important;
+    border-color: #e7e7e7;
+}
+
+.navbarItem {
+    color: #e7e7e7 !important;
+}
+
+.navbarItemActive {
+    color: black !important;
+}
+
+.tablink{
+    background-color: rgba(25,30,35,.61);
+    border-width: 0px;
+    color: #e7e7e7;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.tablink:focus{
+    outline-width: 0px;
+    color: black;
+}
+
+.tabcontent {
+    color: black;
+    display: none;
+    height: 100%;
+}
+
+.feedImages{
+    width: 80%;
+}
+
+.IOTDImages{
+    width: 90%;
+}
+
+a:focus, a:hover {
+    text-shadow: 2px 2px 6px #e7e7e7;
+    text-decoration: none;
+}
